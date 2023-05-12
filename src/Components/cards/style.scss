@@ -1,0 +1,52 @@
+
+.card-container{
+    padding: 1.5em 0.5em 1em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    
+}
+
+.card-img{
+    
+   
+    
+    border-radius: 12px;
+   
+}
+.img{
+    
+    border-radius: 12px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.card-title-rating{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.rating{
+    display: flex;
+    width: 20px;
+    align-items: center;
+    
+}
+
+
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 660px){
+    .img{
+        width:500px;
+    }
+}
